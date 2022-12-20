@@ -3,13 +3,13 @@
 commands
 --------
 
-menu: python cli.py menu
-order pizza: python cli.py order pepperoni --size L --delivery
+menu: python cli.py menu  
+order pizza: python cli.py order pepperoni --size L --delivery  
 
 
-test
-----
+test  
+----  
 
-# comment out decorators first
-python -m unittest test_pizza.py
-python -m unittest test_process_order.py
+# comment out decorators first  
+python -m unittest test_pizza.py  
+python -m unittest test_process_order.py  
